@@ -11,9 +11,9 @@ function TabBar({ ongletActif, setOnglet }) {
   const nbItems = panier.reduce((acc, item) => acc + item.quantite, 0);
 
   const onglets = [
-    { id: 'produits', label: '🛍️ Produits' },
-    { id: 'panier', label: `🛒 Panier${nbItems > 0 ? ` (${nbItems})` : ''}` },
-    { id: 'compte', label: '👤 Compte' },
+    { id: 'produits', label: ' Produits' },
+    { id: 'panier', label: ` Panier${nbItems > 0 ? ` (${nbItems})` : ''}` },
+    { id: 'compte', label: ' Compte' },
   ];
 
   return (
