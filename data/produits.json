@@ -1,0 +1,9 @@
+[
+  { "id": 1, "nom": "Pikachu", "prix": 50, "description": "Carte rare Pikachu", "image": "..." },
+  { "id": 2, "nom": "Dracaufeu", "prix": 150, "description": "Carte holographique", "image": "..." },
+  { "id": 3, "nom": "Ectoplasme", "prix": 25, "description": "Carte Gengar", "image": "..." },
+  { "id": 4, "nom": "Méga-Florizarre EX", "prix": 60, "description": "Carte EX", "image": "..." },
+  { "id": 5, "nom": "Mewtwo EX", "prix": 75, "description": "Légendaire EX", "image": "..." },
+  { "id": 6, "nom": "Koraidon EX", "prix": 35, "description": "Carte Koraidon EX", "image": "..." },
+  { "id": 7, "nom": "Dracaufeu EX", "prix": 100, "description": "Dracaufeu EX rare", "image": "..." }
+]
