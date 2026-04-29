@@ -15,13 +15,13 @@ export default function PanierScreen({ utilisateur, onLogout }) {
   return (
     <View style={styles.container}>
       <View style={styles.entete}>
-        <Text style={styles.bienvenue}>👤 {utilisateur?.nom || 'Invité'}</Text>
+        <Text style={styles.bienvenue}> {utilisateur?.nom || 'Invité'}</Text>
         <Pressable onPress={onLogout}>
           <Text style={styles.logout}>Déconnexion</Text>
         </Pressable>
       </View>
 
-      <Text style={styles.titre}>🛒 Mon panier</Text>
+      <Text style={styles.titre}>Mon panier</Text>
 
       {panier.length === 0 ? (
         <View style={styles.vide}>

@@ -13,7 +13,7 @@ export default function DetailsProduitScreen({ navigation, params, utilisateur, 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.entete}>
-        <Text style={styles.bienvenue}>👤 {utilisateur?.nom || 'Invité'}</Text>
+        <Text style={styles.bienvenue}>{utilisateur?.nom || 'Invité'}</Text>
         <Pressable onPress={onLogout}>
           <Text style={styles.logout}>Déconnexion</Text>
         </Pressable>
