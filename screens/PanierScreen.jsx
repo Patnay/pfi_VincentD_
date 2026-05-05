@@ -1,3 +1,4 @@
+//Patrice Paul - Vincent Demerse
 import { View, Text, FlatList, Image, Pressable, Modal, StyleSheet, Alert } from 'react-native';
 import { useState } from 'react';
 import { useCart } from '../context/CartContext';

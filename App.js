@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyleSheet, Text, View, Image, TextInput, Button } from 'react-native';
+import { StyleSheet, Text, View, Image, TextInput, Button, Alert } from 'react-native';
 import {useSQLiteContext, SQLiteProvider} from "expo-sqlite";
 
 
@@ -13,8 +13,8 @@ export default function App() {
    if (!name || !email || !password){
       Alert.alert("Erreur", "Tous les champs sont obligatoires");
       return;
-    }}
-
+    } Alert.alert("Succès", "Compte créé pour " + name);}
+      
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Poke Pimps</Text>
